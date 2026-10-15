@@ -1,0 +1,1 @@
+import tkinter as tk; from tkinter import messagebox; root = tk.Tk(); root.title("Kalkulator"); entry = tk.Entry(root); entry.pack(); tk.Button(root, text="Hitung", command=lambda: messagebox.showinfo("Hasil", eval(entry.get()))).pack(); root.mainloop()
